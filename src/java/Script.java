@@ -1,4 +1,4 @@
-package src;
+package src79;
 
 import homework2.AdminPageObjects;
 import infrastructure.config.logger.TestLogger;
