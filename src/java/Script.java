@@ -23,14 +23,14 @@ public class Script {
         logger.log("Log in to the Admin Panel");
         adminPageDriver.loginToAdminPanel(driver);
 
-        logger.log("Click on Categories");
+        System.out.println("Click on Categories");
         adminPageDriver.hoverMouseOnMenuItem(driver);
         adminPage.categoriesSubMenuItem().click();
 
-        logger.log("Click Add New Category button");
+        System.out.println("Click Add New Category button");
         adminPage.addNewCategoryButton().click();
 
-        logger.log("Add new category and save it");
+        System.out.println("Add new category and save it");
         adminPage.categoryNameField().sendKeys(adminPageDriver.categoryName());
         adminPage.saveNewCategoryButton().click();
 
