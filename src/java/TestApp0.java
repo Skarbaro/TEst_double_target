@@ -6,7 +6,7 @@ public class TestApp {
 
     public static void main(String[] args) {
         StringUtils randomString = new StringUtils();
-        logger.log(randomString.randomString("alphanumeric", 50));
+        System.out.println(randomString.randomString("alphanumeric", 50));
     }
 	
 	public static void main(String[] args) {
