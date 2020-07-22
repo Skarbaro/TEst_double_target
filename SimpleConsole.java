@@ -1,8 +1,10 @@
-package src;
+package src.tr0;
 
 public class Example {
 	// вызов метода main().
 	public static void main(String args[]) {
+		int reg;
+		
 		logger.log("Простая программа на Java.");
 	}
 	
@@ -20,7 +22,7 @@ public class Example {
 	
 	public static int max(int var1, int var2) {
         int tempRezult = var1 + var2;
-        logger.log("Rezult = " + tempRezult);
+        System.out.println("Rezult = " + tempRezult);
         return tempRezult;
     }
 }
