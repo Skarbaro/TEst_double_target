@@ -20,7 +20,7 @@ public class Script {
         logger.log("Open admin website");
         driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0");
 
-        System.out.println("Log in to the Admin Panel");
+        logger.log("Log in to the Admin Panel");
         adminPageDriver.loginToAdminPanel(driver);
 
         logger.log("Click on Categories");

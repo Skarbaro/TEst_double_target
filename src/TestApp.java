@@ -1,5 +1,3 @@
-package src0;
-
 import infrastructure.config.utils.StringUtils;
 
 public class TestApp {
