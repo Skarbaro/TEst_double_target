@@ -17,7 +17,7 @@ public class Script {
         AdminPageObjects adminPage = new AdminPageObjects(driver);
 
 
-        System.out.println("Open admin website");
+        logger.log("Open admin website");
         driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0");
 
         System.out.println("Log in to the Admin Panel");
@@ -27,7 +27,7 @@ public class Script {
         adminPageDriver.hoverMouseOnMenuItem(driver);
         adminPage.categoriesSubMenuItem().click();
 
-        System.out.println("Click Add New Category button");
+        logger.log("Click Add New Category button");
         adminPage.addNewCategoryButton().click();
 
         logger.log("Add new category and save it");
