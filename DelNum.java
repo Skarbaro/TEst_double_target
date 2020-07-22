@@ -6,6 +6,6 @@ public class DelNum {
       int num1 = 5, num2 = 15; 
 	  int dif;
       dif = num1 - num2;
-      System.out.println("Sum of these numbers: " + dif);
+      logger.log("Sum of these numbers: " + dif);
    }
 }
