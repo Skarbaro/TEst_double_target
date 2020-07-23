@@ -9,7 +9,7 @@ public class Example {
 	
 	public static int ung(int var1, int var2) {
         int tempRezult = var1 * var2;
-        logger.log("Rezult = " + tempRezult);
+        System.out.println("Rezult = " + tempRezult);
         return tempRezult;
     }
 	
