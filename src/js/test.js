@@ -9,7 +9,6 @@ function showMessage() {
 
 function showMes() {
   let message = 'Привет, ' + userName;
-  let regert;
   alert(message);
 }
 
