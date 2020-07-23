@@ -13,4 +13,13 @@ function showMes() {
   alert(message);
 }
 
+
+function showRed() {
+  let messag = 'Привет, ' + userName_1;
+  let regeArt;
+  alert(messag);
+}
+
 showMessage(); // Привет, Вася
+
+showMessage()
