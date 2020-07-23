@@ -9,13 +9,5 @@ public class Client {
 		sum = num1 / num2;
 		System.out.println("Sum of these numbers: " + sum);
 	}
-	
-	public static void mainR(String[] args) {
-		int num11 = 6, num22 = 10;
-		int sam;
-		
-		sam = num11 / num22;
-		System.out.println("Sum of these numbers: " + sam);
-	}
-}
+
 }

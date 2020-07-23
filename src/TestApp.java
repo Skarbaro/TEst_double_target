@@ -1,6 +1,8 @@
 import infrastructure.config.utils.StringUtils;
 
 public class TestApp {
+	
+	private int reg_1;
 
     public static void main(String[] args) {
         StringUtils randomString = new StringUtils();
