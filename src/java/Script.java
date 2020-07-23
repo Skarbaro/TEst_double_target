@@ -41,7 +41,7 @@ public class Script {
         adminPage.searcByNameField().sendKeys(adminPageDriver.categoryName());
         adminPage.searcByNameButton().click();
 
-        System.out.println("Check filter results");
+        logger.log("Check filter results");
         assertTrue(adminPage.searcByNameElement().isDisplayed());
 
         System.out.println("Close the browser");
