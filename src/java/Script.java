@@ -44,7 +44,7 @@ public class Script {
         logger.log("Check filter results");
         assertTrue(adminPage.searcByNameElement().isDisplayed());
 
-        System.out.println("Close the browser");
+        logger.log("Close the browser");
         driver.quit();
     }
 }
