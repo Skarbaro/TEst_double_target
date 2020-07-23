@@ -7,4 +7,10 @@ function showMessage() {
   alert(message);
 }
 
+function showMes() {
+  let message = 'Привет, ' + userName;
+  let regert;
+  alert(message);
+}
+
 showMessage(); // Привет, Вася
