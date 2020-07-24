@@ -1,6 +1,8 @@
 public class AddTwoNumbers {
    
    public static void main(String[] args) {
+	   
+	   private int reg_3;
       
       int num1 = 5;
 	  int num2 = 15;
@@ -12,6 +14,8 @@ public class AddTwoNumbers {
    }
    
    public static void main(String args[]) {
+	   
+	   int regt2;
       
       int numn1 = 5, numn2 = 17;
 	  int dif;
