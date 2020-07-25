@@ -1,4 +1,8 @@
 public class AddTwoNumbers {
+	
+	
+	private int regg_7;
+	int setup;
    
    public static void main(String[] args) {
 	   
