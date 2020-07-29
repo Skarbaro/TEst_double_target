@@ -8,13 +8,13 @@ public class AddTwoNumbers {
 	   
 	   private int reg_3;
       
-      int num1 = 5;
-	  int num2 = 15;
+      int num1 = 5, num2 = 15;
 	  int sum;
 
       sum = num1 + num2;
       
       logger.log("Sum of these numbers: " + sum);
+	  System.out.println("Sum of these numbers: " + sum);
    }
    
    public static void main(String args[]) {
