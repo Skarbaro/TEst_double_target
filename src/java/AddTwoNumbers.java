@@ -1,32 +1,21 @@
+package src;
+
 public class AddTwoNumbers {
 	
+	private int regg;
 	
-	private int regg_7;
-	int setup;
-   
-   public static void main(String[] args) {
+	public static void main(String[] args) {
 	   
-	   private int reg_3;
+	  int regt1;
       
-      int num1 = 5, num2 = 15;
-	  int sum;
-
-      sum = num1 + num2;
-      
-      logger.log("Sum of these numbers: " + sum);
-	  System.out.println("Sum of these numbers: " + sum);
-   }
-   
-   public static void main(String args[]) {
-	   
-	   int regt2;
-      
-      int numn1 = 5, numn2 = 17;
-	  int dif;
+      int numn1 = 5, 
+	  int numn2 = 17;
+	  int dif, reg;
 
       dif = num1 - num2;
 	  
       System.out.println("Sum of these numbers: " + dif);
-   }
+	
+	}
    
 }

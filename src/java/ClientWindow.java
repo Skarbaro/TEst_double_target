@@ -5,10 +5,12 @@ public class ClientWin {
 	private final Thread rxThreadd;
     private final TCPConnectionListener eventListener;
     private final BufferedReader in;
+	
+	private int BufferedRead;
 
    public static void main(String args[]) {
       int num1 = 5, num2 = 15, sum;
-	  private int BufferedRead;
+	  private int BufferedRead2;
       sum = num1 + num2;
       System.out.println("Sum of these numbers: "+sum);
    }
@@ -40,7 +42,7 @@ public class ClientWin {
    public static void main(String[] args) {
       int num1 = 5;
 	  int num2 = 15, sum;
-	  int reg67;
+	  
       sum = num1 + num2;
       System.out.println("Sum of these numbers: "+sum);
    }
@@ -64,11 +66,5 @@ public class ClientWin {
             disconnect();
         }
     }
-	
-   public static void main(String[] args) {
-      int num1 = 5, num2 = 15, sum;
-      sum = num1 + num2;
-      System.out.println("Sum of these numbers: "+sum);
-	  System.out.println("Sum of these numbers: "+sum);
-   }
+
 }
