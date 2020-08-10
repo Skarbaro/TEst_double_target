@@ -2,11 +2,12 @@ import infrastructure.config.utils.StringUtils;
 
 public class TestApp {
 	
-	private int reg_1;
+	private int a, b;
 
     public static void main(String[] args) {
 		
 		private int reg_2;
+		int c; int d;
 		
         StringUtils randomString = new StringUtils();
         System.out.println(randomString.randomString("alphanumeric", 50));
