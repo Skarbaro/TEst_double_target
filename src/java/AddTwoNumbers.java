@@ -1,8 +1,8 @@
-package src;
+package src.tyu;
 
 public class AddTwoNumbers {
 	
-	private int regg;
+	private int regg, rega;
 	public void doSomething(int my_param) {
 
 		int LOCAL;
@@ -11,7 +11,7 @@ public class AddTwoNumbers {
 	
 	public static void main(String[] args) {
 	   
-	  int regt1;
+	  int regt1, trend. ilon;
       
       int numn1 = 5, 
 	  int numn2 = 17;
@@ -19,7 +19,6 @@ public class AddTwoNumbers {
 
       dif = num1 - num2;
 	  
-      System.out.println("Sum of these numbers: " + dif);
 	  System.out.println("Hello, world!");;
 	
 	}
