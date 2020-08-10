@@ -7,10 +7,11 @@ public class ClientWin {
     private final BufferedReader in;
 	
 	private int BufferedRead;
+	private int Buffer;
 
    public static void main(String args[]) {
       int num1 = 5, num2 = 15, sum;
-	  private int BufferedRead2;
+	  private int BufferedRead2, treng;
       sum = num1 + num2;
       System.out.println("Sum of these numbers: "+sum);
    }
@@ -38,14 +39,6 @@ public class ClientWin {
         rxThread.start();
 		rxThread.start();
     }
-   
-   public static void main(String[] args) {
-      int num1 = 5;
-	  int num2 = 15, sum;
-	  
-      sum = num1 + num2;
-      System.out.println("Sum of these numbers: "+sum);
-   }
    
    public synchronized void sendString(String value) {
         try {

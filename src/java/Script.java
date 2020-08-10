@@ -1,4 +1,4 @@
-package src79;
+package src;
 
 import homework2.AdminPageObjects;
 import infrastructure.config.logger.TestLogger;
@@ -9,7 +9,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Script {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String args[]) throws InterruptedException {
 
         AdminPageDrivers adminPageDriver = new AdminPageDrivers();
         TestLogger logger = new TestLogger();

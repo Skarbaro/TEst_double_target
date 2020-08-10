@@ -3,7 +3,7 @@ let user1, user2;
 
 function showMessage() {
   let message = 'Привет, ' + userName;
-  let reg;
+  let reg, ter;
   alert(message);
 }
 
@@ -13,12 +13,5 @@ function showMes() {
 }
 
 
-function showRed() {
-  let messag = 'Привет, ' + userName_1;
-  let regeArt;
-  alert(messag);
-}
 
 showMessage(); // Привет, Вася
-
-showMessage()
