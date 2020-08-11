@@ -58,6 +58,7 @@ public class ClientWin {
             eventListener.onException(TCPConnection.this, e);
             disconnect();
         }
+		System.out.println ("c = "+ c);
     }
 
 }
