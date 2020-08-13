@@ -9,11 +9,11 @@ public class ClientWin {
 	private int BufferedRead;
 	private int Buffer;
 
-   public static void main(String args[]) {
-      int num1 = 5, num2 = 15, sum;
-	  private int BufferedRead2, treng;
-      sum = num1 + num2;
-      System.out.println("Sum of these numbers: "+sum);
+   public static void main(String[] args) {
+      int rd1 = 5,
+	  int rd2 = 17, rif;
+      rif = rd1 - rd2;
+      System.out.println("Dif of these numbers: " + rif);
    }
    public TCPConnection(final TCPConnectionListener eventListener, Socket socket) throws IOException {
         this.eventListener = eventListener;
