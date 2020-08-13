@@ -10,8 +10,7 @@ public class ClientWin {
 	private int Buffer;
 
    public static void main(String[] args) {
-      int rd1 = 5,
-	  int rd2 = 17, rif;
+      int rd1 = 5, rd2 = 17, rif;
       rif = rd1 - rd2;
       System.out.println("Dif of these numbers: " + rif);
    }
