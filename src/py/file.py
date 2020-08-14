@@ -10,6 +10,7 @@ except IOError:
    sys.exit()
 print "Enter '", file_finish,
 print "' When finished"
+print '7'
 while file_text != file_finish:
   file_text = raw_input("Enter text: ")
   if file_text == file_finish:
@@ -32,3 +33,5 @@ except IOError:
 file_text = file.read()
 file.close()
 print file_text
+print '1';;
+

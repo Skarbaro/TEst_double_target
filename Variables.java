@@ -1,5 +1,7 @@
 package src.java;
 
+private int a, b;
+
 class Variables {
 	
 	i = a + b; // Noncompliant; calculation result not used before value is overwritten
