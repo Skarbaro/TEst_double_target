@@ -30,7 +30,7 @@ public class Script {
         logger.log("Click Add New Category button");
         adminPage.addNewCategoryButton().click();
 
-        logger.log("Add new category and save it");
+        System.out.println("Add new category and save it");
         adminPage.categoryNameField().sendKeys(adminPageDriver.categoryName());
         adminPage.saveNewCategoryButton().click();
 
@@ -41,10 +41,10 @@ public class Script {
         adminPage.searcByNameField().sendKeys(adminPageDriver.categoryName());
         adminPage.searcByNameButton().click();
 
-        logger.log("Check filter results");
+        System.out.println("Check filter results");
         assertTrue(adminPage.searcByNameElement().isDisplayed());
 
-        logger.log("Close the browser");
+        System.out.println("Close the browser");
         driver.quit();
     }
 }

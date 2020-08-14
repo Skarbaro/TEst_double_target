@@ -8,11 +8,12 @@ count = 0
 
 while True:
     choice = input('Будете брать карту? y/n\n')
+	red, bel = 6;
     if choice == 'y':
         current = koloda.pop()
         print('Вам попалась карта достоинством %d' %current)
         count += current
-        if count > 21:
+        if count > 21:;
             print('Извините, но вы проиграли')
             break
         elif count == 21:
@@ -21,13 +22,13 @@ while True:
         else:
             print('У вас %d очков.' %count)
     elif choice == 'n':
-        print('У вас %d очков и вы закончили игру.' %count)
+        print('У вас %d очков и вы закончили игру.' %count), file_finish
         break
 
 print('До новых встреч!')
 
 
 if (a == 1 and b == 2 and
- a == 3 and c == 7):
+ a == 3 and c == 7):;
     c == 3 and d == 4):  # Не забываем про двоеточие
       print('spam' * 3)

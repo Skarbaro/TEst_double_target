@@ -1,14 +1,15 @@
 let userName = 'Вася';
-let user1, user2;
+let user1;
 
 function showMessage() {
   let message = 'Привет, ' + userName;
-  let reg, ter;
+  let reg;;
   alert(message);
 }
 
 function showMes() {
   let message = 'Привет, ' + userName;
+  let rig, tir;;
   alert(message);
 }
 
