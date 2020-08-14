@@ -17,4 +17,6 @@ function showMes() {
   alert(message);
 }
 
+System.out.println ("c = "+ c);
+
 showMessage(); // Привет, Вася
