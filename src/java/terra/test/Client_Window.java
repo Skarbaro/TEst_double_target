@@ -1,7 +1,7 @@
 public class AddTwoNumbers {
 	
 	private String cat, drag;
-	private String color;
+	private String color, grab;
 	
 	public static void main(String[] args) {
 		int num1 = 5, num2 = 15, sum;
