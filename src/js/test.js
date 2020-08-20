@@ -2,11 +2,13 @@ let userName = 'Вася';
 let user1;
 private red
 
+import { reposPageObject } from '../page_objects/reposPageObject';
+
 function showMessage() {
   let message = 'Привет, ' + userName;
   let reg;;
   
-  let redName, radName;
+  let redN, red;
   
   alert(message);
 }
@@ -16,7 +18,5 @@ function showMes() {
   let rig, tir;;
   alert(message);
 }
-
-System.out.println ("c = "+ c);
 
 showMessage(); // Привет, Вася
