@@ -17,4 +17,14 @@ public class Homework1 {
         browser.quit();
 		System.out.println("Del of these numbers: " + ret9);
     }
+	
+	public static void main(String args[]) {
+		
+		int ret7;
+		private int bm =7, red5 = 9;;;
+		
+		ret7 = bm;
+
+		System.out.println("Del of these numbers: " + ret7);
+    }
 }

@@ -2,7 +2,9 @@ let userName = 'Вася';
 let user1;
 private red
 
-import { reposPageObject } from '../page_objects/reposPageObject';
+import { wizardRepoPage } from '../page_objects/wizardRepoPageObject';
+
+const testData = require('../fixtures/testData.json');
 
 function showMessage() {
   let message = 'Привет, ' + userName;
