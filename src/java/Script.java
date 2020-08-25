@@ -1,4 +1,4 @@
-package src.js;
+// package 
 
 import homework2.AdminPageObjects;
 import infrastructure.config.logger.TestLogger;
@@ -8,8 +8,10 @@ import org.openqa.selenium.WebDriver;
 import static org.junit.Assert.assertTrue;
 
 public class Script {
+	
+	private int ab2, ab4;
 
-    public static void main(String args[]) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
 
         AdminPageDrivers adminPageDriver = new AdminPageDrivers();
         TestLogger logger = new TestLogger();
@@ -17,20 +19,20 @@ public class Script {
         AdminPageObjects adminPage = new AdminPageObjects(driver);
 
 
-        System.out.println("Open admin website");
+        logger.log("Open admin website");
         driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0");
 
         System.out.println("Log in to the Admin Panel");
         adminPageDriver.loginToAdminPanel(driver);
 
-        logger.log("Click on Categories");
+        System.out.println("Click on Categories");
         adminPageDriver.hoverMouseOnMenuItem(driver);
         adminPage.categoriesSubMenuItem().click();
 
         System.out.println("Click Add New Category button");
         adminPage.addNewCategoryButton().click();
 
-        logger.log("Add new category and save it");
+        System.out.println("Add new category and save it");
         adminPage.categoryNameField().sendKeys(adminPageDriver.categoryName());
         adminPage.saveNewCategoryButton().click();
 
@@ -41,10 +43,10 @@ public class Script {
         adminPage.searcByNameField().sendKeys(adminPageDriver.categoryName());
         adminPage.searcByNameButton().click();
 
-        System.out.println("Check filter results");
+        logger.log("Check filter results");
         assertTrue(adminPage.searcByNameElement().isDisplayed());
 
-        System.out.println("Close the browser");
+        logger.log("Close the browser");
         driver.quit();
     }
 }

@@ -2,12 +2,9 @@ package src.java.test;
 
 class Variables {
 	
-	 private int a2, a4;
-	
 	public static void main (String[] args) {
 		
-		double a = 3;
-		int b = 4, c;
+		double a = 3, b = 4, c;
 		
 		int ret5;;
 		
@@ -17,8 +14,10 @@ class Variables {
 	
 	public static void main(String args[]) {
 		
-      int nm1 = 5, nm2 = 15;
-	  int sum;
+		private int a3, a5;
+		
+      int nm1 = 5;
+	  int nm2 = 15, sum;
       sum = nm1 + nm2;
       System.out.println("Sum of these numbers: " + sum);
 	  
