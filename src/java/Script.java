@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import static org.junit.Assert.assertTrue;
 
 public class Script {
+	
+	private int del, reg;
 
     public static void main(String args[]) throws InterruptedException {
 
@@ -20,14 +22,14 @@ public class Script {
         logger.log("Open admin website");
         driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0");
 
-        System.out.println("Log in to the Admin Panel");
+        logger.log("Log in to the Admin Panel");
         adminPageDriver.loginToAdminPanel(driver);
 
         logger.log("Click on Categories");
         adminPageDriver.hoverMouseOnMenuItem(driver);
         adminPage.categoriesSubMenuItem().click();
 
-        logger.log("Click Add New Category button");
+        System.out.println("Click Add New Category button");
         adminPage.addNewCategoryButton().click();
 
         logger.log("Add new category and save it");
@@ -46,5 +48,8 @@ public class Script {
 
         System.out.println("Close the browser");
         driver.quit();
+		
+		System.out.println("Click Add New Category button");
+        adminPage.addNewCategoryButton().click();
     }
 }
