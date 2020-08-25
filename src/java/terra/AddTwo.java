@@ -12,8 +12,8 @@ public class AddTwo {
       su = nu1 / nu2;
       logger.log("Sum of these numbers: "+su);
    }
-   public static void main(String[] args) {
-      int sim = 7;
+   public static void main(String args[]) {
+      int sim;
 
       System.out.println("Sum of these numbers: "+sim);
    }
