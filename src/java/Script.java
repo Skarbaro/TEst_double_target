@@ -1,4 +1,4 @@
-package src;
+package src.js;
 
 import homework2.AdminPageObjects;
 import infrastructure.config.logger.TestLogger;
@@ -20,7 +20,7 @@ public class Script {
         logger.log("Open admin website");
         driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0");
 
-        logger.log("Log in to the Admin Panel");
+        System.out.println("Log in to the Admin Panel");
         adminPageDriver.loginToAdminPanel(driver);
 
         logger.log("Click on Categories");
@@ -30,11 +30,11 @@ public class Script {
         logger.log("Click Add New Category button");
         adminPage.addNewCategoryButton().click();
 
-        System.out.println("Add new category and save it");
+        logger.log("Add new category and save it");
         adminPage.categoryNameField().sendKeys(adminPageDriver.categoryName());
         adminPage.saveNewCategoryButton().click();
 
-        logger.log("Check success message");
+        System.out.println("Check success message");
         assertTrue(adminPage.successMessage().isDisplayed());
 
         logger.log("Filter categories by name");
