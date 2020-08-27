@@ -16,7 +16,7 @@ class Variables {
 		
 		private int a3, a5;
 		
-      int nm1 = 5;
+      int nm1 = 7;
 	  int nm2 = 15, sum;
       sum = nm1 + nm2;
       System.out.println("Sum of these numbers: " + sum);
