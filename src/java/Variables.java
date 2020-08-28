@@ -14,10 +14,9 @@ class Variables {
 	
 	public static void main(String args[]) {
 		
-		private int a3, a5;
+		private int a3;
 		
-      int nm1 = 7;
-	  int nm2 = 15, sum;
+      int nm1 = 7, nm2 = 15, sum;
       sum = nm1 + nm2;
       System.out.println("Sum of these numbers: " + sum);
 	  
