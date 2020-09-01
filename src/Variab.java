@@ -2,6 +2,8 @@ package src.java;
 
 class Variab {
 	
+	private int abg;
+	
 	public static void main (String[] args) {
 		
 		double a = 7, b = 9, c;
