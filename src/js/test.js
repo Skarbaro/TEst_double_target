@@ -10,9 +10,7 @@ const testData2 = require('../fixtures/testData2.json');
 
 function showMessage() {
   let message = 'Привет, ' + userName;
-  let reg;;
-  
-  let redN, red;
+  let reg,redN, red;
   
   alert(message);
 }
