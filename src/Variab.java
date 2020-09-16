@@ -2,14 +2,14 @@ package src.java;
 
 class Variab {
 	
-	public static void main (String args[]) {
+	public int issues1, issues2;
+	
+	public static void main (String[] args) {
 		
-		double a = 7;
-		int b = 9;
-		int c;
+		double a = 7, b = 9, c;
 		
 		c = Math.sqrt (a* a + b* b);
 		
-		System.out.println("c = "+ c);
+		logger.log("c = "+ c);
 	}
 }
