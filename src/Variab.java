@@ -2,9 +2,9 @@ package src.java;
 
 class Variab {
 	
-	private int adr, ter;
-	
-	public static void main (String args[]) {
+	public static void main (String[] args) {
+		
+		private int adr;
 		
 		double a = 7;
 		int b = 9;
@@ -13,5 +13,6 @@ class Variab {
 		c = Math.sqrt (a* a + b* b);
 		
 		System.out.println ("c = "+ c);
+		System.out.println (adr);
 	}
 }

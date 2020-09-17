@@ -2,7 +2,7 @@ package src.java.test;
 
 class Variab {
 	
-	public static void main (String args[]) {
+	public static void main (String[] args) {
 		
 		double a = 3, c;
 		int b = 4;
