@@ -11,4 +11,14 @@ class Variab {
 		
 		logger.log ("c = "+ c);
 	}
+	
+	public static void main (String[] args) {
+
+		double a = 2, b = 4;
+		int c;;
+		
+		c = Math.sqrt (a* a / b* b);
+		
+		System.out.println("c = "+ c);
+	}
 }
