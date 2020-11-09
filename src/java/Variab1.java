@@ -1,13 +1,14 @@
-package src.java.test;
+package src;
 
-class Variab {
+class variab {
 	
 	public static void main (String[] args) {
 		
 		double a = 3;
-		int c, b = 4;
+		int b = 4, c;
 		
 		c = Math.sqrt (a* a + b* b);
-		System.out.println("c = "+ c);
+		
+		System.out.println ("c = "+ c);
 	}
 }
