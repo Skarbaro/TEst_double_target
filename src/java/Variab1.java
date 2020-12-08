@@ -6,10 +6,14 @@ class variab {
 	
 	public static void main (String arg[]) {
 		
-		double a = 3, b = 4, c;
+		double a = 3;
+		int b = 4;
+		int c;
+		int ret = 7;
 		
 		c = Math.sqrt (a* a + b* b);
 		
 		System.out.println ("c = "+ c);
+		System.out.println ("c = "+ ret);
 	}
 }
