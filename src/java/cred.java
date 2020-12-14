@@ -14,6 +14,7 @@ try {
         "user=" + uname + "&password=" + password); // Sensitive
 
   java.net.PasswordAuthentication pa = new java.net.PasswordAuthentication("userName", "1234".toCharArray());  // Sensitive
+  System.out.println ("c = "+ inerd);
   
 }
 }
