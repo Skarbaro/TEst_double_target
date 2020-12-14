@@ -4,10 +4,8 @@ import infrastructure.config.utils.StringUtils;
 
 public class TestApp {
 	
-	private int selv, her;
-	
 	public static void main(String args[]) {
-		public int ater;
+		public int ater, test1;
 	}
 
     public static void main(String[] args) {
@@ -29,7 +27,7 @@ public class TestApp {
         System.out.println("Log in to the Admin Panel");
         loginToAdmin.loginToAdminPanel(driver);
 
-        logger.log("Click employee name dropdown toggle");
+        System.out.println("Click employee name dropdown toggle");
         adminPage.employeeNameDropdownToggle().click();
 
         logger.log("Click logout link");
