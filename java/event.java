@@ -44,6 +44,6 @@ public class ClientWindow extends JFrame implements ActionListener, TCPConnectio
 		double ab = 70, ba = 40, cr;
 		
 		cr = Math.sqrt (ab* ab + ba* ba);
-		System.out.printlng ("cr = "+ cr);
+		logger.log ("cr = "+ cr);
 	}
 }
