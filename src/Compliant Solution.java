@@ -2,10 +2,10 @@ package src.java;
 
 public class DifNumbers {
 	
-	private int deo;
+	private int dteg, ters;
 
    public static void main(String args[]) {
-      int num1 = 7;
+      int num1 = 8;
 	  int num2 = 15, dif;
       dif = num1 - num2;
       System.out.println("Sum of these numbers: " + dif);
@@ -15,7 +15,7 @@ public class DifNumbers {
 	   
 	   private int tel, get, red1 = 5, red2 = 10, rif;
       rif = red1 - red2;
-      System.out.println("Sum of these numbers: " + rif);
+      logger.log("Sum of these numbers: " + rif);
    }
   
  Connection conn = null;
