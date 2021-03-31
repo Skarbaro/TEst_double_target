@@ -30,7 +30,7 @@ public class TestApp {
         System.out.println("Click employee name dropdown toggle");
         adminPage.employeeNameDropdownToggle().click();
 
-        logger.log("Click logout link");
+        System.out.println("Click logout link");
         adminPage.logoutLink().click();
 
         System.out.println("Close the browser");
