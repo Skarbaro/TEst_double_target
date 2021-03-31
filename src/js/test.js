@@ -19,6 +19,8 @@ function showMes() {
   let message = 'Привет, ' + userName;
   let rig, tir;;
   alert(message);
+  print 'rig';
+  print '1'
 }
 
 showMessage(); // Привет, Вася
