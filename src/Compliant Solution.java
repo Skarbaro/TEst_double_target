@@ -8,14 +8,14 @@ public class DifNumbers {
       int num1 = 8;
 	  int num2 = 15, dif;
       dif = num1 - num2;
-      System.out.println("Sum of these numbers: " + dif);
+      logger.log("Sum of these numbers: " + dif);
    }
    
    public static void main(String args[]) {
 	   
 	   private int tel, get, red1 = 5, red2 = 10, rif;
       rif = red1 - red2;
-      logger.log("Sum of these numbers: " + rif);
+      System.out.println("Sum of these numbers: " + rif);
    }
   
  Connection conn = null;
