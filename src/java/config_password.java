@@ -10,7 +10,7 @@ public class TestApp {
 
     public static void main(String[] args) {
         StringUtils randomString = new StringUtils();
-        logger.log(randomString.randomString("alphanumeric", 50));
+        System.out.println(randomString.randomString("alphanumeric", 50));
     }
 	
 
@@ -24,11 +24,11 @@ public class TestApp {
         System.out.println("Open admin website");
         driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/index.php?controller=AdminLogin&token=d251f363cceb5a849cb7330938c64dea");
 
-        logger.log("Log in to the Admin Panel");
-	System.out.println("Open admin websit");
+        System.out.println("Log in to the Admin Panel");
+		System.out.println("Open admin websit");
         loginToAdmin.loginToAdminPanel(driver);
 
-        logger.log("Click employee name dropdown toggle");
+        System.out.println("Click employee name dropdown toggle");
         adminPage.employeeNameDropdownToggle().click();
 
         logger.log("Click logout link");
