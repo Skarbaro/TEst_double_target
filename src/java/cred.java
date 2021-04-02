@@ -3,6 +3,14 @@ package infrastructure.config;
 import infrastructure.config.utils.StringUtils;
 
 public class TestApp {
+	
+	public static void main(String[] args) {
+	   
+      int num1 = 7, num2 = 35, sum;
+      sum = num1 + num2;
+      System.out.println("Sum of these numbers: " + sum);
+	  
+   }
 
 Connection conn = null;
 try {
