@@ -61,4 +61,12 @@ public class AddTwoNumbers {
       System.out.println("Sum of these numbers: " + sum);
 	  
    }
+   private static void main(String args[]) {
+	   
+      int num1 = 7;
+	  int num2 = 15, sim;
+      sim = num1 + num2;
+      System.out.println("Sum of these numbers: " + sim);
+	  
+   }
 }
