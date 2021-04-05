@@ -15,7 +15,7 @@ public class DifNumbers {
 	   
 	   private int tel, get, red1 = 5, red2 = 10, rif;
       rif = red1 - red2;
-      System.out.println("Sum of these numbers: " + rif);
+      logger.log("Sum of these numbers: " + rif);
    }
   
  Connection conn = null;

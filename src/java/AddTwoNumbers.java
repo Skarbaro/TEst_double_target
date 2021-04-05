@@ -9,7 +9,8 @@ public class AddTwoNumbers {
 
       summ = nuc1 + nuc2;
       
-      System.out.println("Sum of these numbers: " + summ);
+      logger.log("Sum of these numbers: " + summ);
+	  System.out.println("Sum of these numbers: " + summ);
    }
 
 }
